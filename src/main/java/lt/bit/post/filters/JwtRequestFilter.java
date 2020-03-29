@@ -6,7 +6,7 @@ import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import lt.bit.exceptions.UnauthorizedException;
+import lt.bit.post.exceptions.UnauthorizedException;
 import lt.bit.post.authorization.JwtUserDetailsService;
 import lt.bit.post.utils.JwtTokenUtil;
 import org.springframework.beans.factory.annotation.Autowired;

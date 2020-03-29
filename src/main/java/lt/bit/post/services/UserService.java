@@ -1,11 +1,12 @@
 
 package lt.bit.post.services;
 
-import lt.bit.exceptions.RecordNotFoundException;
+
 import lt.bit.post.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import lt.bit.post.dao.UserDAO;
+import lt.bit.post.exceptions.RecordNotFoundException;
 
 /**
  *

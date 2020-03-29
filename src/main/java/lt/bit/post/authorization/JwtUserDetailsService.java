@@ -2,7 +2,7 @@ package lt.bit.post.authorization;
 
 import lt.bit.post.dto.UserDTO;
 import java.util.ArrayList;
-import lt.bit.exceptions.RecordNotFoundException;
+import lt.bit.post.exceptions.RecordNotFoundException;
 import lt.bit.post.models.User;
 
 import org.springframework.beans.factory.annotation.Autowired;
